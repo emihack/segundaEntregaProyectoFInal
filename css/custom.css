@@ -1,0 +1,96 @@
+body {
+background: #1b1b1b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #22209b, #3f3c3c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #22209b, #3f3c3c); 
+}
+.btn{
+    width: 100%;
+    border: solid, 2px, white;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 26px;
+    border-radius: 5.5px;
+    color: white;
+    font-size: 90;
+    margin-bottom: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #00000098, #3f3c3c); 
+    
+}
+header {
+    background-color:#000000;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+header h1 {
+    font-size: 42px;
+    margin:0;
+    color: #ffffff;
+    font-size: 90;
+    text-align: center;
+    text-shadow:
+    0px 0px 10px #4133ff,
+    0px 0px 20px #4133ff,
+    0px 0px 40px #4133ff,
+    0px 0px 60px #4133ff,
+    0px 0px 80px #4133ff;
+}
+
+
+.error {
+    background-color: #000000;
+    border: 1px solid #0c0c06;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.correcto {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.error p {
+    margin:0;
+}
+#contenido {
+    margin-top: 60px;
+    background-color: white;
+    -webkit-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+}
+.contenido-formulario {
+    margin-top: 30px;
+}
+#cargando {
+    text-align: center;
+}
+#cargando img {
+    display: none;
+    margin: 0 auto;
+}
+#resultado  {
+    margin-bottom: 40px;
+}
+#resultado div {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 0  0 20px 0;
+}
+#resultado div p {
+    margin-bottom: 0;
+}
+#resultado div p.header {
+    background-color: #000000;
+    margin-bottom: 10px;
+    color:white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
