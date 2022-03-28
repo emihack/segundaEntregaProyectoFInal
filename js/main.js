@@ -1,3 +1,4 @@
+
 // Cotizador Constructor
 //constructor para seguro
 
@@ -27,6 +28,7 @@ class Seguro {
                 cantidad = base * 1.45;
                 break;
         }
+        
     
         // leer el año
         const diferencia = new Date().getFullYear() - this.anio;
@@ -41,7 +43,9 @@ class Seguro {
        }else {
            cantidad *= 1.50;
        }
-        return cantidad;
+       console.log ("El precio del seguro a contratar es de $ ", cantidad)
+       return cantidad;
+        
     
     }
 }
@@ -158,7 +162,7 @@ formulario.addEventListener('submit', function(e) {
 
 
 const max = new Date().getFullYear(),
-    min = max - 20;
+    min = max - 30;
 
 
 // imprimir select de años

@@ -5,18 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Material Design for Bootstrap fonts and icons -->
+    <!-- LIBRERÍAS Material Design for Bootstrap fonts and icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
-    <!-- Material Design for Bootstrap CSS -->
+    <!-- LIBRERÍAS Material Design for Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/custom.css">
   </head>
   <body>
+    <form id="idForm">
+      <input type="text" id="idUser" placeholder="UserName" name="user">
+      <input type="password" id="idPassword" placeholder="Password" name="password">
+      <input type="email" id="idEmail" placeholder="Email" name="email">
+      <button type="submit" class="btno btn-primary1">Crear Usuario</button>
+    
+    <button id="idbotonMostrarUsers" class="btno btn-primary1">Mostrar Usuarios</button><br>
+    </form>
+    <div id="divUsuarios" class="row"></div>
+    <script src="./js/main2.js"></script>
 <div class="container">
   <div class="row">
     <div class="col col-md-8 mr-md-auto ml-md-auto" >
@@ -24,6 +34,7 @@
             <header>
                     <h1 class="text-center">Hermes Asesores Cotizador</h1>
             </header>
+            
             <div class="row contenido-formulario">
                 <div class="col col-md-10 mr-md-auto ml-md-auto">
                   <form action="#" id="cotizar-seguro">
