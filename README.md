@@ -1,3 +1,3 @@
-# segundaEntregaProyectoFInal
-## Segunda entrega pryrecto final Coderhouse.
-### Cotizador vehículos auto, moto, camioneta.
+# Entrega desafío 8 y 9
+## Librerías material design y bootstrap
+### Utilizo localStorage
